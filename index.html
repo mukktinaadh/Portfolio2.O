@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukktinaadh Raghavarapu | AI Infrastructure & Distributed Systems</title>
+    <meta name="description"
+        content="Portfolio of Mukktinaadh Raghavarapu, Software Engineer specializing in AI Infrastructure & Distributed Systems.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body class="dark-theme">
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">MR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-primary-sm">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="greeting reveal-up">Hi, I am</p>
+                    <h1 class="name reveal-up delay-1">Mukktinaadh Raghavarapu</h1>
+                    <h2 class="title reveal-up delay-2">Software Engineer &mdash; <br><span class="gradient-text">AI
+                            Infrastructure & Distributed Systems</span></h2>
+
+                    <div class="tagline-container reveal-up delay-3">
+                        <p class="tagline typewriter-text" id="typewriter"></p>
+                    </div>
+
+                    <div class="cta-group reveal-up delay-4">
+                        <a href="#contact" class="btn-primary">Get In Touch</a>
+                        <a href="#" class="btn-secondary" onclick="alert('Resume PDF will be attached here.')"><i
+                                class="fas fa-file-download"></i> Resume</a>
+                        <a href="https://github.com/mukktinaadh" target="_blank" class="btn-secondary"><i
+                                class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/mukktinaadh" target="_blank" class="btn-secondary"><i
+                                class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-scale delay-3">
+                    <div class="image-wrapper glow-effect">
+                        <img src="images/profile.jpeg" alt="Mukktinaadh Raghavarapu">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title reveal-up">About <span class="gradient-text">Me</span></h2>
+                <div class="about-content">
+                    <div class="about-text reveal-up delay-1">
+                        <p>Software Engineer with 3+ years of hands-on experience bridging AI research and production
+                            backend systems. Published researcher in blockchain-backed MLOps (NeuroChainOps).
+                            Architected 25+ projects spanning federated learning platforms, enterprise fintech systems,
+                            multimodal AI, and distributed infrastructure.</p>
+                        <p>Strong foundation in system design, microservices, and cloud infrastructure. Solved 1100+
+                            coding challenges with expertise in data structures and algorithms. Seeking high-impact
+                            roles (12+ LPA) building AI infrastructure at product companies or high-growth startups.</p>
+                        <p>Currently volunteering as AI Engineer at Google Developer Group (GDG), mentoring 200+
+                            students and architecting ML features adopted across 5+ university projects.</p>
+                    </div>
+                    <div class="stats-grid reveal-up delay-2">
+                        <div class="stat-card">
+                            <h3 class="gradient-text">25+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="gradient-text">700+</h3>
+                            <p>LeetCode</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="gradient-text">3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="gradient-text">15+</h3>
+                            <p>Mentees Guided</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech-stack" class="tech-stack-section">
+            <div class="container">
+                <h2 class="section-title reveal-up">Tech <span class="gradient-text">Stack</span></h2>
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category reveal-up delay-1">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python (Expert)</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript/TypeScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Go (Basics)</span>
+                        </div>
+                    </div>
+                    <!-- AI/ML -->
+                    <div class="skill-category reveal-up delay-2">
+                        <h3><i class="fas fa-brain"></i> AI / ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch / TensorFlow</span>
+                            <span class="skill-tag">Transformers / Hugging Face</span>
+                            <span class="skill-tag">RAG / LLM Systems</span>
+                            <span class="skill-tag">Vector DBs</span>
+                            <span class="skill-tag">GANs / CNNs / LSTMs</span>
+                            <span class="skill-tag">Federated Learning</span>
+                        </div>
+                    </div>
+                    <!-- Backend & Infrastructure -->
+                    <div class="skill-category reveal-up delay-3">
+                        <h3><i class="fas fa-server"></i> Backend & Infra</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">FastAPI / Spring Boot / Node.js</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">Kafka / RabbitMQ</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">REST / gRPC / GraphQL</span>
+                        </div>
+                    </div>
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-category reveal-up delay-1">
+                        <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">GitHub Actions / CI/CD</span>
+                            <span class="skill-tag">Prometheus / Grafana</span>
+                        </div>
+                    </div>
+                    <!-- Databases & MLOps -->
+                    <div class="skill-category reveal-up delay-2">
+                        <h3><i class="fas fa-database"></i> Databases & MLOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PostgreSQL / MongoDB</span>
+                            <span class="skill-tag">FAISS / Chroma</span>
+                            <span class="skill-tag">Elasticsearch</span>
+                            <span class="skill-tag">MLflow</span>
+                            <span class="skill-tag">Model Monitoring</span>
+                        </div>
+                    </div>
+                    <!-- Core CS -->
+                    <div class="skill-category reveal-up delay-3">
+                        <h3><i class="fas fa-cogs"></i> Core CS</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Algorithms & Data Structures</span>
+                            <span class="skill-tag">System Design</span>
+                            <span class="skill-tag">Distributed Systems</span>
+                            <span class="skill-tag">Design Patterns / SOLID</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title reveal-up">Featured <span class="gradient-text">Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-up delay-1">
+                        <div class="project-content">
+                            <h3 class="project-title">Veriblock-FL</h3>
+                            <p class="project-desc">Privacy-preserving distributed ML system combining federated
+                                learning with zk-SNARKs and blockchain-backed model governance.</p>
+                            <div class="project-tech"><span>PyTorch</span><span>Blockchain</span><span>Distributed
+                                    Systems</span></div>
+                            <ul class="project-highlights">
+                                <li>Reduced communication overhead by 10%</li>
+                                <li>Published Research: "NeuroChainOps"</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/Veriblock-FL" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-up delay-2">
+                        <div class="project-content">
+                            <h3 class="project-title">FinAI_Advisor_Enterprise</h3>
+                            <p class="project-desc">Enterprise-grade financial advisory system with real-time market
+                                analysis and AI-powered portfolio optimization.</p>
+                            <div class="project-tech"><span>FastAPI</span><span>TensorFlow</span><span>WebSockets</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>1000+ concurrent users with &lt;200ms latency</li>
+                                <li>Real-time live market updates</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/FinAI_Advisor_Enterprise" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal-up delay-3">
+                        <div class="project-content">
+                            <h3 class="project-title">NASLib</h3>
+                            <p class="project-desc">Production-grade Neural Architecture Search with distributed
+                                training coordination.</p>
+                            <div class="project-tech"><span>PyTorch</span><span>Reinforcement
+                                    Learning</span><span>MLOps</span></div>
+                            <ul class="project-highlights">
+                                <li>Improved model FLOPs efficiency by ~12%</li>
+                                <li>Experiment tracking and model versioning</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/NASLib" target="_blank" class="btn-secondary"><i
+                                    class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card reveal-up delay-1">
+                        <div class="project-content">
+                            <h3 class="project-title">Deep-LOB-Agentv2</h3>
+                            <p class="project-desc">Deep learning system for high-frequency trading prediction on Limit
+                                Order Book data.</p>
+                            <div class="project-tech"><span>PyTorch</span><span>Deep Learning</span><span>Time
+                                    Series</span></div>
+                            <ul class="project-highlights">
+                                <li>SOTA performance on FI-2010 benchmark</li>
+                                <li>LSTM/Attention hybrid architectures</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/Deep-LOB-Agentv2" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card reveal-up delay-2">
+                        <div class="project-content">
+                            <h3 class="project-title">Multimodal-Emotion-Rec</h3>
+                            <p class="project-desc">Real-time multimodal AI combining facial expression and speech
+                                emotion recognition.</p>
+                            <div class="project-tech"><span>PyTorch</span><span>OpenCV</span><span>CNN & LSTM</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>85%+ accuracy on RAVDESS and SAVEE</li>
+                                <li>Real-time inference pipeline (&lt;100ms latency)</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/multimodal-emotion-recognition" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card reveal-up delay-3">
+                        <div class="project-content">
+                            <h3 class="project-title">InsightFlowAI</h3>
+                            <p class="project-desc">AI-powered data analytics platform with automated ETL and business
+                                intelligence.</p>
+                            <div class="project-tech"><span>FastAPI</span><span>Apache Airflow</span><span>Kafka</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Processing 10GB+ daily</li>
+                                <li>Reduced DB load by 60% through caching</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/InsightFlowAI" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card reveal-up delay-1">
+                        <div class="project-content">
+                            <h3 class="project-title">codepal-AI</h3>
+                            <p class="project-desc">High-performance AI-powered developer assistant with intelligent
+                                request batching.</p>
+                            <div class="project-tech"><span>FastAPI</span><span>Redis</span><span>Microservices</span>
+                            </div>
+                            <ul class="project-highlights">
+                                <li>Reduced API latency by 40%</li>
+                                <li>Rate limiting handling 1000+ req/min</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/codepal-AI" target="_blank" class="btn-secondary"><i
+                                    class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+                    <div class="project-card reveal-up delay-2">
+                        <div class="project-content">
+                            <h3 class="project-title">FaceSnapX-Attendance</h3>
+                            <p class="project-desc">Real-time face recognition system with cryptographic identity
+                                verification.</p>
+                            <div class="project-tech"><span>Python</span><span>OpenCV</span><span>Edge
+                                    Optimization</span></div>
+                            <ul class="project-highlights">
+                                <li>95%+ accuracy with &lt;60ms inference</li>
+                                <li>50+ concurrent video streams handled</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mukktinaadh/FaceSnapX-Attendance" target="_blank"
+                                class="btn-secondary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Projects Section -->
+        <section class="all-projects-section">
+            <div class="container">
+                <h2 class="section-title reveal-up">Other <span class="gradient-text">Projects</span></h2>
+                <div class="filter-container reveal-up delay-1">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI / ML</button>
+                    <button class="filter-btn" data-filter="backend">Backend / DevOps</button>
+                    <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+                </div>
+
+                <div class="projects-list reveal-up delay-2" id="projects-list">
+                    <!-- JS will populate this list based on data -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="timeline-section">
+            <div class="container timeline-container">
+
+                <div class="experience-col">
+                    <h2 class="section-title reveal-up">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item reveal-up delay-1">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Volunteer Software Engineer (AI)</h3>
+                                <p class="timeline-org">Google Developer Group (GDG)</p>
+                                <p class="timeline-date">2023 &mdash; Present</p>
+                                <ul>
+                                    <li>Architected Java/Python ML features adopted by 200+ students across 5+
+                                        university projects.</li>
+                                    <li>Optimized preprocessing pipelines improving model accuracy by 10-15%.</li>
+                                    <li>Mentored 15+ contributors through code reviews and technical documentation.</li>
+                                    <li>Built end-to-end AI/ML prototypes for real-world deployment scenarios.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-col">
+                    <h2 class="section-title reveal-up">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item reveal-up delay-2">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>B.Tech &mdash; Computer Science Engineering</h3>
+                                <p class="timeline-org">Parul University</p>
+                                <p class="timeline-date">Expected Graduation: 2026</p>
+                                <p class="timeline-text">Specialization: Big Data Analytics</p>
+                                <p class="timeline-text">Coursework: Machine Learning, Deep Learning, System Design,
+                                    Distributed Systems, Cloud Computing, DSA, DBMS, Computer Networks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications Section -->
+        <section id="achievements" class="cards-section">
+            <div class="container dual-grid">
+
+                <!-- Achievements -->
+                <div class="achievements-col reveal-up delay-1">
+                    <h2 class="section-title">Achievements</h2>
+                    <ul class="achievement-list">
+                        <li><i class="fas fa-trophy"></i> 25+ production-grade repositories spanning AI infrastructure,
+                            backend systems, DevOps.</li>
+                        <li><i class="fas fa-code"></i> 700+ LeetCode problems solved (Top 5% globally).</li>
+                        <li><i class="fas fa-laptop-code"></i> 1100+ total coding challenges across platforms.</li>
+                        <li><i class="fas fa-book-open"></i> Published Research: "NeuroChainOps: A Privacy-Preserving,
+                            Blockchain-Backed MLOps Framework" (ResearchGate, 2025).</li>
+                        <li><i class="fas fa-server"></i> 6+ containerized systems with CI/CD deployed on AWS.</li>
+                    </ul>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications-col reveal-up delay-2">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Computer Networks and IP</h4>
+                                <p>NPTEL</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Job Simulations</h4>
+                                <p>Forage (Walmart, JPMorgan, Goldman Sachs)</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Google Analytics</h4>
+                                <p>Google</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Data Analytics</h4>
+                                <p>LinkedIn Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GitHub Stats Section -->
+        <section id="github-stats" class="github-section">
+            <div class="container">
+                <h2 class="section-title reveal-up">GitHub <span class="gradient-text">Activity</span></h2>
+                <div class="github-content reveal-up delay-1">
+                    <div class="gh-stats-grid" id="gh-stats-grid">
+                        <div class="gh-stat-card">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4 id="gh-repos">50+</h4>
+                                <p>Repositories</p>
+                            </div>
+                        </div>
+                        <div class="gh-stat-card">
+                            <i class="fas fa-code-commit"></i>
+                            <div>
+                                <h4>103+</h4>
+                                <p>Total Commits</p>
+                            </div>
+                        </div>
+                        <div class="gh-stat-card">
+                            <i class="fas fa-file-code"></i>
+                            <div>
+                                <h4>3.7M+</h4>
+                                <p>Lines of Code</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gh-graph-container">
+                        <!-- Leveraging ghchart.rshah.org for standard GH contribution embedding, using our var(--accent-purple) HEX: b055ff -->
+                        <img src="https://ghchart.rshah.org/b055ff/mukktinaadh"
+                            alt="Mukktinaadh's GitHub Contribution Graph" class="gh-chart">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container reveal-up">
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="contact-desc">Open for full-time roles (12+ LPA), internships, and freelance
+                    projects.<br>Preferred locations: Bangalore, Hyderabad, Pune, Remote (India).</p>
+
+                <div class="contact-cards">
+                    <div class="contact-card" onclick="copyEmail(event)">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>mukktinaadhraghavarapu@gmail.com</p>
+                        <span class="copy-hint" id="copy-hint">Click to copy</span>
+                    </div>
+
+                    <a href="https://linkedin.com/in/mukktinaadh" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/mukktinaadh</p>
+                        <span class="copy-hint">Connect</span>
+                    </a>
+
+                    <a href="https://github.com/mukktinaadh" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>github.com/mukktinaadh</p>
+                        <span class="copy-hint">Follow</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mukktinaadh Raghavarapu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification for Copy -->
+    <div id="toast" class="toast">Email Copied!</div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/github.js"></script>
+</body>
+
+</html>
